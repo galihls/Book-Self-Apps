@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bookshelf App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Bookshelf App</h1>
+
+    <form id="book-form">
+      <input type="text" id="title" placeholder="Title" />
+      <input type="text" id="author" placeholder="Author" />
+      <input type="number" id="year" placeholder="Year" />
+      <div>
+        <label for="isComplete">Completed</label>
+        <input type="checkbox" id="isComplete" />
+      </div>
+      <button type="submit">Add Book</button>
+    </form>
+    <h2>Search Book</h2>
+    <input type="text" id="search" placeholder="Search books..." />
+    <h2>Books To Read</h2>
+    <div id="incomplete-books"></div>
+
+    <h2>Completed Books</h2>
+    <div id="completed-books"></div>
+    <footer>
+      <p>© 2024 Bookshelf App</p>
+      <p>
+        Created by:
+        <a href="https://www.instagram.com/galihls_">Angga Muhammad Galih</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
