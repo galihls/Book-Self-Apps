@@ -62,7 +62,7 @@ function addBook(e) {
     id: +new Date(),
     title: titleInput.value,
     author: authorInput.value,
-    year: yearInput.value,
+    year: parseInt(yearInput.value),
     isComplete: isCompleteInput.checked,
   };
 
